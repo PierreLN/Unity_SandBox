@@ -35,7 +35,7 @@ public class SimpleSaut : MonoBehaviour
     {
         if (collision.collider.gameObject.layer == LayerMask.NameToLayer("Acteur"))
         {
-            SceneManager.LoadScene("Evenement");
+            //SceneManager.LoadScene("Evenement");
         }
     }
 }
